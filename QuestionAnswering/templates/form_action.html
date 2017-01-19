@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Handle POST requests with Flask</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body style="background-color: bisque;">
+        <div id="container">
+            <div class="title">
+                <h1 style="color:brown; text-align:center;font-family: Times New Roman, Times, serif;">Answers</h1>
+            </div>
+            <div id="content">
+                <strong><u>You queried for:</u> </strong> {{query}}
+                <br/> <br/>
+               <strong> <u>Top Tweets Used:</u> </strong> <br/><br/>
+                 {{query_results[0]}} <br/><br/>              
+                {{query_results[1]}} <br/><br/>
+                {{query_results[2]}} <br/><br/>
+                {{query_results[3]}} <br/><br/>
+                {{query_results[4]}} <br/><br/>
+                {{query_results[5]}} <br/><br/>
+                {{query_results[6]}} <br/><br/>
+                {{query_results[7]}} <br/><br/>
+                {{query_results[8]}} <br/><br/>
+                {{query_results[9]}} <br/><br/></p> 
+              <!-- <script type="text/javascript">
+                                
+                for(i=0; i<3;i++){
+                    
+                    document.write(query_results[i]);
+                    document.write("<br/>");
+                }          
+</script> -->
+            </div>
+
+                
+            </div>
+        
+    </body>
+</html>
