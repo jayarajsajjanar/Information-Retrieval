@@ -1,5 +1,5 @@
 
-###Projects as part of CSE535 Information Retrieval Course Work
+### Projects as part of CSE535 Information Retrieval Course Work
 
 
 1. Folder `QuestionAnswering` corresponds to the 4th project of the course wherin a Question Answering search engine system was built. Twitter data was collected using a REST api called tweepy. Indexing & querying was done on Solr. Used Lucene to experiment with various retrieval models. NLP was done using nltk library.
